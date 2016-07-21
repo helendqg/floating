@@ -1,0 +1,22 @@
+/* Pon tu código css aqui */
+.padre{
+	width:80%;
+	border:black 1px solid;
+	overflow: auto;
+}
+.padre div{
+	float:left;
+	width:25%;
+	height:100px;
+
+}
+.hijo1{
+	background-color:yellow;
+
+}
+.hijo2{
+	background-color:blue;
+}
+.hijo3{
+	background-color:red;
+}

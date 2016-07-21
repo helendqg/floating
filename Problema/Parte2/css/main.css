@@ -1,0 +1,23 @@
+/* Pon tu código css aqui */
+.padre{
+	width:80%;
+	border:black 1px solid;
+}
+.hijo1{
+	width:25%;
+	height:100px;
+	background-color:yellow;
+	float:left;
+}
+.hijo2{
+	width:25%;
+	height:100px;
+	background-color:blue;
+	float:left;
+}
+.hijo3{
+	width:25%;
+	height:100px;
+	background-color:red;
+	float:left;
+}
