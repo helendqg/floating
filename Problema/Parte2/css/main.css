@@ -1,23 +1,23 @@
 /* Pon tu código css aqui */
-.padre{
-	width:80%;
-	border:black 1px solid;
+.caja {
+	width: 600px;
+	border: 1px solid #CCC;
 }
-.hijo1{
-	width:25%;
-	height:100px;
-	background-color:yellow;
-	float:left;
+
+.bloque {
+	width: 25%;
+	height: 100px;
+	float: left;
 }
-.hijo2{
-	width:25%;
-	height:100px;
-	background-color:blue;
-	float:left;
+
+.amarillo {
+	background-color: #FFFF00;
 }
-.hijo3{
-	width:25%;
-	height:100px;
-	background-color:red;
-	float:left;
+
+.azul {
+	background-color: #3A81BA;
+}
+
+.rojo {
+	background-color: #ED2251;
 }

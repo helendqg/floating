@@ -1,22 +1,31 @@
-/* Pon tu código css aqui */
-.padre{
-	width:80%;
-	border:black 1px solid;
-	overflow: auto;
+.caja {
+	width: 600px;
+	border: 1px solid #CCC;
 }
-.padre div{
-	float:left;
-	width:25%;
-	height:100px;
 
+.bloque {
+	width: 25%;
+	height: 100px;
+	float: left;
 }
-.hijo1{
-	background-color:yellow;
 
+.amarillo {
+	background-color: #FFFF00;
 }
-.hijo2{
-	background-color:blue;
+
+.azul {
+	background-color: #3A81BA;
 }
-.hijo3{
-	background-color:red;
+
+.rojo {
+	background-color: #ED2251;
+}
+
+.clearfix:before, .clearfix:after {
+   content: " ";
+   display: table;
+}
+
+.clearfix:after {
+   clear: both;
 }
